@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto;
+    background-image: url(../img/home_back_ground.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    color: white;
+    margin-top: 5vh;
+    width: 100vw;
+    font-size: 10vmin;
+    font-family: 'Mali', cursive;
+    text-shadow: -5px -5px 1px black;
+    opacity: 0.5;
+}
+
+.container{
+    margin: 0 auto;
+    width: 360px;
+    height: 640px;
+    background: rgba(0, 0, 0, 1);
+    transform: rotate(-30deg) skew(25deg) scale(.8);
+    transition: 0.5s;
+}
+
+.container button{
+    position: absolute;
+    margin: 70% 0;
+    transition: 0.5s;
+    background-color: red;
+    border: none;
+    color: white;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.container:hover button:nth-child(4){
+    transform: translate(100px, -100px);
+    opacity: 1;
+}
+
+.container:hover button:nth-child(3){
+    transform: translate(70px, -70px);
+    opacity: .8;
+}
+
+.container:hover button:nth-child(2){
+    transform: translate(40px, -40px);
+    opacity: .6;
+}
+
+.container:hover button:nth-child(1){
+    transform: translate(10px, -10px);
+    opacity: .4;
+}
